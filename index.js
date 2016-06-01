@@ -9,7 +9,9 @@ var io = require('socket.io')(http);
 
 //Load twilio module
 var twilio = require('twilio');
-var client = new twilio.RestClient(process.env.TWILIO_USER, process.env.TWLIO_PASS);
+const twilioUser = process.env.TWILIO_USER;
+const twilioPass = process.env.TWILIO_PASS;
+var client = new twilio.RestClient(twilioUser, twilioPass);
 
 app.http().io()
 
