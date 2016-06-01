@@ -1,0 +1,6 @@
+{
+  "name": "cowork-alert",
+  "description": "SMS back-end for Alexa skill",
+  "repository": "https://github.com/huberf/cowork-alert",
+  "keywords": ["node", "express"]
+}
